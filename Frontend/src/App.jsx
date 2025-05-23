@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { useLocation, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
+
 const App = () => {
   // Get current URL path to determine if it includes "owner"
 
@@ -19,10 +21,11 @@ const App = () => {
 
         <Routes>
           {/* Home page route */}
-
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
+     {/* Footer Section */}
+      <Footer />
     </div>
   );
 };
