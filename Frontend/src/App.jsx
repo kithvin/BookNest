@@ -4,6 +4,7 @@ import { useLocation, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import AllRooms from "./pages/AllRooms";
+import RoomDetails from "./pages/RoomDetails";
 
 const App = () => {
   // Get current URL path to determine if it includes "owner"
@@ -27,6 +28,9 @@ const App = () => {
 
           {/* All Room page route */}
           <Route path="/rooms" element={<AllRooms />} />
+
+           {/* Rooms Details page route */}
+           <Route path="/rooms/:id" element={<RoomDetails />} />
 
         </Routes>
       </div>
