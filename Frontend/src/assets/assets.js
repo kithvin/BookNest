@@ -115,8 +115,8 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "kevin",
-    "email": "kevin@gmail.com",
+    "username": "kithvin",
+    "email": "kithvin@gmail.com",
     "image": "https://cdn.stocksnap.io/img-thumbs/960w/pool-resort_O3ETYCN1WY.jpg",
     "role": "hotelOwner",
     "createdAt": "2025-03-25T09:29:16.367Z",

@@ -21,7 +21,7 @@ const FeaturedDestinatination = () => {
 
       {/* Room cards grid */}
 
-      <div className="flex flex-wrap items-center justify-center gap-12 mt-20">
+      <div className="flex flex-wrap items-center justify-center gap-16 mt-22">
         {roomsDummyData.slice(0, 4).map((room, index) => (
           <HotelCard key={room._id} room={room} index={index} />
         ))}
