@@ -3,6 +3,7 @@ import { assets, facilityIcons, roomsDummyData } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 import StarRating from "../components/StarRating";
 
+
 // Reusable Checkbox Component
 
 const CheckBox = ({ label, selected = false, onChange = () => {} }) => {

@@ -38,6 +38,30 @@ import uploadArea from "./uploadArea.svg";
 import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
 
+import aboutHero from './aboutHero.jpg';
+import aboutMission from './aboutMission.jpg';
+import team1 from './team1.jpg';
+import team2 from './team2.jpg';
+import team3 from './team3.jpg';
+
+import expHero from './expHero.jpg';
+import foodIcon from './foodIcon.png';
+import cultureIcon from './cultureIcon.png';
+import spaIcon from './spaIcon.png';
+import mountainIcon1 from './mountainIcon1.png';
+
+import testimonials1 from './testimonials1.jpg'
+import testimonials2 from './testimonials2.jpg'
+import testimonials3 from './testimonials3.jpg'
+import testimonials4 from './testimonials4.jpg'
+import testimonials5 from './testimonials5.jpg'
+import testimonials6 from './testimonials6.jpg'
+import testimonials7 from './testimonials7.jpg'
+import testimonials8 from './testimonials8.jpg'
+import testimonials9 from './testimonials9.jpg'
+import testimonials10 from './testimonials10.jpeg'
+import testimonials11 from './testimonials11.jpg'
+import testimonials12 from './testimonials12.jpg'
 
 export const assets = {
     logo,
@@ -72,6 +96,33 @@ export const assets = {
     uploadArea,
     totalBookingIcon,
     totalRevenueIcon,
+
+    aboutHero,
+    aboutMission,
+    team1,
+    team2,
+    team3,
+
+    expHero,
+    foodIcon,
+    cultureIcon,
+    spaIcon,
+    mountainIcon1,
+
+    testimonials1,
+    testimonials2,
+    testimonials3,
+    testimonials4,
+    testimonials5,
+    testimonials6,
+    testimonials7,
+    testimonials8,
+    testimonials9,
+    testimonials10,
+    testimonials11,
+    testimonials12,
+ 
+
 }
 
 export const cities = [

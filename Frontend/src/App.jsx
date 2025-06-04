@@ -12,6 +12,9 @@ import Dashboard from "./pages/hotelOwner/Dashboard.jsx";
 import AddRoom from "./pages/hotelOwner/AddRoom.jsx";
 import ListRoom from "./pages/hotelOwner/ListRoom.jsx";
 
+import Experiences from "./pages/Experiences";
+import About from "./pages/About";
+
 const App = () => {
   // Get current URL path to determine if it includes "owner"
 
@@ -43,6 +46,10 @@ const App = () => {
 
           {/* My Booking Page route */}
           <Route path="/my-bookings" element={<MyBookings />} />
+
+          <Route path="/experiences" element={<Experiences />} />
+
+          <Route path="/about" element={<About />} />
 
           {/* Hotel Owner layout and nested routes */}
 
