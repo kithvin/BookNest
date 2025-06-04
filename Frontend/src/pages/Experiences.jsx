@@ -38,6 +38,7 @@ const Experiences = () => {
 
   return (
     <div className="pt-28 md:pt-35 px-4 md:px-16 lg:px-24 xl:px-32 min-h-screen">
+
       {/* Hero Section */}
 
       <div className="relative h-100 rounded-xl overflow-hidden mb-16">
@@ -71,7 +72,7 @@ const Experiences = () => {
           {categories.map((category) => (
             <div
               key={category.id}
-              className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow text-center"
+              className="bg-primary/1 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow text-center"
             >
               <div className="flex justify-center mb-4">
                 <img
@@ -118,16 +119,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">James Wilson</p>
-                <p className="text-gray-500 text-sm">On Desert Safari</p>
+                <p className="text-gray-500 text-sm">On Personalized Stay</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={5} />
             </div>
             <p className="text-gray-600">
-              "The desert safari was the highlight of our Dubai trip! Our guide
-              was incredibly knowledgeable and made the experience
-              unforgettable."
+              "Every part of my stay felt handpicked. 
+              Booknest really knows how to make it personal."
             </p>
           </div>
 
@@ -142,16 +142,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Sophia Chen</p>
-                <p className="text-gray-500 text-sm">On Tea Ceremony</p>
+                <p className="text-gray-500 text-sm">On Comfort</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={5} />
             </div>
             <p className="text-gray-600">
-              "A truly authentic cultural experience. The tea master explained
-              every detail with such passion. Highly recommend for anyone
-              visiting Kyoto."
+              "Booknest wasn’t just a booking app.
+              it felt like a travel buddy who cared about my comfort."
             </p>
           </div>
 
@@ -169,15 +168,16 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Ethan Patel</p>
-                <p className="text-gray-500 text-sm">On Wine Tasting</p>
+                <p className="text-gray-500 text-sm">On Service</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={4} />
             </div>
+
             <p className="text-gray-600">
-              "The vineyard views were spectacular and the wines exceptional. We
-              learned so much about Italian winemaking traditions."
+              "The service felt designed around me. 
+              Booknest made my trip smoother and way more memorable."
             </p>
           </div>
 
@@ -193,15 +193,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Sophia Lee</p>
-                <p className="text-gray-500 text-sm">On Spa Experience</p>
+                <p className="text-gray-500 text-sm">On Platform</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={2} />
             </div>
             <p className="text-gray-600">
-              "The spa treatments were rejuvenating and the staff was incredibly
-              professional. A perfect way to relax!"
+              "I've used other platforms, 
+              but Booknest stands out for its genuine care and personalized touches."
             </p>
           </div>
 
@@ -216,15 +216,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Liam Johnson</p>
-                <p className="text-gray-500 text-sm">On Culinary Tour</p>
+                <p className="text-gray-500 text-sm">On Experience</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={3} />
             </div>
             <p className="text-gray-600">
-              "The culinary tour was a delightful journey of flavors. Every dish
-              told a story of the local culture."
+              "From start to finish, Booknest felt like home. 
+              Clean, thoughtful, and incredibly user-focused."
             </p>
           </div>
 
@@ -239,15 +239,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Olivia Martinez</p>
-                <p className="text-gray-500 text-sm">On City Tour</p>
+                <p className="text-gray-500 text-sm">On Booking</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={5} />
             </div>
             <p className="text-gray-600">
-              "The city tour was well organized and informative. The guide was
-              friendly and knowledgeable."
+              "Booking was easy, 
+              but what surprised me was how personal and smooth the entire stay was."
             </p>
           </div>
 
@@ -262,15 +262,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Noah Wilson</p>
-                <p className="text-gray-500 text-sm">On Adventure Trip</p>
+                <p className="text-gray-500 text-sm">On Details</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={4} />
             </div>
             <p className="text-gray-600">
-              "Thrilling adventure with expert guides. The activities were safe
-              and exhilarating."
+              "Booknest nailed every detail. 
+              It felt like someone knew exactly what I needed."
             </p>
           </div>
 
@@ -285,15 +285,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Emma Davis</p>
-                <p className="text-gray-500 text-sm">On Cultural Workshop</p>
+                <p className="text-gray-500 text-sm">On Hospitality</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={4} />
             </div>
             <p className="text-gray-600">
-              "Loved the cultural workshop! It was engaging and gave me a deeper
-              appreciation of local traditions."
+              "I’ve never felt this looked after. 
+              Booknest goes beyond just bookings — it’s thoughtful hospitality."
             </p>
           </div>
 
@@ -308,15 +308,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">James Brown</p>
-                <p className="text-gray-500 text-sm">On Beach Resort</p>
+                <p className="text-gray-500 text-sm">On Usability</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={4} />
             </div>
             <p className="text-gray-600">
-              "The beach resort was paradise! Clean, beautiful, and perfect for
-              a family vacation."
+              "Super easy to use, 
+              and the experience felt warm and personalized. Booknest gets it right."
             </p>
           </div>
 
@@ -331,15 +331,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Isabella Garcia</p>
-                <p className="text-gray-500 text-sm">On Hiking Experience</p>
+                <p className="text-gray-500 text-sm">On Warm Hospitality</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={5} />
             </div>
             <p className="text-gray-600">
-              "The hiking trails were breathtaking and well maintained. A great
-              escape into nature."
+              "Booknest wasn’t just efficient.
+              it made me feel genuinely welcomed and cared for."
             </p>
           </div>
 
@@ -354,15 +354,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Mia Thompson</p>
-                <p className="text-gray-500 text-sm">On Cooking Class</p>
+                <p className="text-gray-500 text-sm">On User Experience</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={4} />
             </div>
             <p className="text-gray-600">
-              "The cooking class was fun and informative. I now feel confident
-              to recreate these dishes at home."
+              "It’s rare to find an app that 
+              combines ease with a human touch. Booknest does both."
             </p>
           </div>
 
@@ -377,15 +377,15 @@ const Experiences = () => {
               </div>
               <div>
                 <p className="font-playfair text-lg">Alexandra Green</p>
-                <p className="text-gray-500 text-sm">On Personalized Service</p>
+                <p className="text-gray-500 text-sm">On Personalization</p>
               </div>
             </div>
             <div className="flex items-center gap-1 mb-3">
               <StarRating rating={3} />
             </div>
             <p className="text-gray-600">
-              "Truly unforgettable stay personalized service and genuine
-              hospitality."
+              "Loved the experience! Booknest turned an ordinary stay 
+              into something that felt specially arranged for me."
             </p>
           </div>
         </div>
