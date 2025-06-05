@@ -1,6 +1,9 @@
 import express from 'express'; // Import Express framework
 import "dotenv/config"; // Load environment variables from .env file
 import cors from "cors"; // Import CORS to handle cross-origin requests
+import connectDB from './config/db.js';
+
+connectDB();
 
 // Initialize Express app
 const app = express();
